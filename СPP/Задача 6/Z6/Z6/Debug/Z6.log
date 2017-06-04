@@ -1,0 +1,27 @@
+﻿Построение начато 06.01.2017 15:02:41.
+     1>Проект "c:\Users\oleg\documents\visual studio 2010\Projects\Z6\Z6\Z6.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Z6.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Z6.cpp
+         Z6.cpp
+     1>c:\users\oleg\documents\visual studio 2010\projects\z6\z6\z6.cpp(74): warning C4101: temp: неиспользованная локальная переменная
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\oleg\documents\visual studio 2010\Projects\Z6\Debug\Z6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Z6.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\oleg\documents\visual studio 2010\Projects\Z6\Debug\Z6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\oleg\documents\visual studio 2010\Projects\Z6\Debug\Z6.lib" /MACHINE:X86 Debug\Z6.exe.embed.manifest.res
+         Debug\Z6.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Z6.exe.embed.manifest" /manifest Debug\Z6.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         Z6.vcxproj -> c:\users\oleg\documents\visual studio 2010\Projects\Z6\Debug\Z6.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Z6.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Z6.lastbuildstate".
+     1>Построение проекта "c:\Users\oleg\documents\visual studio 2010\Projects\Z6\Z6\Z6.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.66

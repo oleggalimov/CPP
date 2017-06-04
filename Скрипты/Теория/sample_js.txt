@@ -1,0 +1,128 @@
+// Выдает сообщение на консоль
+WScript.echo("Hello, World!");
+
+// Так создается экземпляр переменной
+var v1;
+v1 = "Text message";
+WScript.echo("Variable v1 has value:"+v1);
+
+// Так выполняются арифметические операции
+i1 = 5, i2 = 3, i3;
+i3 = i1 * i2;
+WScript.echo("Value of i3 is "+i3);
+
+// Так создается массив
+var a1 = []; 
+var idx;
+for (idx = 0; idx < 3; idx++)
+{
+  a1[idx] = idx + 10;
+}
+WScript.echo("Length="+a1.length)
+
+idx = 0;
+while (idx < a1.length)
+{
+  
+  WScript.echo("a1["+idx+"]="+a1[idx]);
+  idx++;
+}
+
+a1[99]=100
+WScript.echo(a1)
+
+var c = new Array(-5,2) 
+c.shift()
+// вызов функции
+WScript.echo(min(5, 18));
+
+
+function min(v1, v2)
+{
+  if (v1 >= v2)
+  {
+    return v2;
+  }
+  else
+  {
+    return v1;
+  }
+}
+
+// работа с аргументами скрипта
+var Args = WScript.Arguments;
+WScript.echo("Number of script arguments: "+Args.Count());
+WScript.echo("Script arguments: ")
+for (idx1 = 0; idx1 < Args.length; idx1++)
+{
+  WScript.echo(Args(idx1));
+}
+
+// работа с файлами
+var FSO = new ActiveXObject("Scripting.FileSystemObject");
+// создание и наполнение файла
+var f = FSO.CreateTextFile("testfile.txt", true);
+f.WriteLine("This is a test.");
+f.WriteLine("Second line words: red, blue , green");
+f.Close();
+// чтение существующего файла
+f = FSO.OpenTextFile("testfile.txt", 1);
+var fileContent = f.ReadAll()
+f.close();
+WScript.echo(fileContent);
+
+// разбор строки
+var lines = [];
+lines = fileContent.split("\r\n");
+WScript.echo("The second line of file is: "+lines[1]);
+WScript.echo("The words of second line are: "+
+    lines[1].split(/ *[,.: ] */).join(", "));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
