@@ -1,0 +1,14 @@
+﻿Построение начато 09.07.2017 16:18:42.
+     1>Проект "C:\Users\oleg\Desktop\cpp_projects\vector\vector\vector.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\vector.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(5): error C2664: setlocale: невозможно преобразовать параметр 1 из "const char [7]" в "int"
+                 Не существует контекста, в котором такое преобразование возможно
+     1>Построение проекта "C:\Users\oleg\Desktop\cpp_projects\vector\vector\vector.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.26
